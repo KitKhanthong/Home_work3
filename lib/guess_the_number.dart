@@ -25,7 +25,7 @@ void main(){
 
     stdout.write("Guess number 1 and 100 : ");
     var input = stdin.readLineSync();
-    //print("Your input is $input");
+    //lprint("Your input is $input");
     if (input == null) {
       //print("Error,input is NULL");
       continue;

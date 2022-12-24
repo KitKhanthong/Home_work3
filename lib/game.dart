@@ -8,7 +8,7 @@ class Game {
   int age;
   int max;
   static List<int> _guessesList = [];
-  //Game() : answer = Random().nextInt(100)+1;
+  //Game() : answer = Random().nextInt(100)+1;*/
   Game(this.max,this.name,this.age) : answer = Random().nextInt(max) + 1{
     print("Answer is : $answer ");
   }
